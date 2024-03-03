@@ -1,0 +1,24 @@
+{
+    "IPv4s": [
+        "142.250.191.238"
+    ],
+    "IPv6s": [
+        "2607:f8b0:4009:81b::200e"
+    ],
+    "domain": "youtube.com",
+    "geo_locations": [
+        "United States"
+    ],
+    "hsts": true,
+    "http_server": "ESF",
+    "insecure_http": true,
+    "rdns_names": [
+        "ord38s32-in-f14.1e100.net"
+    ],
+    "redirect_to_https": true,
+    "scan_time": 1709432043.742881,
+    "tls_versions": [
+        "TLSv1.2",
+        "TLSv1.3"
+    ]
+}
