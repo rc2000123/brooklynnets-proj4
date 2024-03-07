@@ -1,7 +1,7 @@
 {
     "asee.org": {
         "geo_locations": [
-            "United States,Virginia,Washington"
+            "Washington,Virginia,United States"
         ],
         "hsts": false,
         "http_server": "Microsoft-IIS/10.0",
@@ -13,7 +13,7 @@
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "DigiCert Inc",
-        "scan_time": 1709796035.7182217,
+        "scan_time": 1709837332.5137336,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -21,7 +21,7 @@
     },
     "auditoryneuroscience.com": {
         "geo_locations": [
-            "Hong Kong,Central and Western District,Central"
+            "Central,Central and Western District,Hong Kong"
         ],
         "hsts": false,
         "http_server": "Apache/2.4.58 (Ubuntu)",
@@ -35,7 +35,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "Internet Security Research Group",
-        "scan_time": 1709796031.6095097,
+        "scan_time": 1709837328.1824481,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -50,8 +50,8 @@
         "http_server": "cloudflare",
         "insecure_http": true,
         "ipv4_addresses": [
-            "172.67.170.124",
-            "104.21.87.176"
+            "104.21.87.176",
+            "172.67.170.124"
         ],
         "ipv6_addresses": [
             "2606:4700:3035::ac43:aa7c",
@@ -60,7 +60,7 @@
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "GlobalSign nv-sa",
-        "scan_time": 1709796031.391206,
+        "scan_time": 1709837327.912864,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -70,7 +70,7 @@
     },
     "gradeinflation.com": {
         "geo_locations": [
-            "Canada,British Columbia,Victoria"
+            "Victoria,British Columbia,Canada"
         ],
         "hsts": false,
         "http_server": "nginx",
@@ -84,7 +84,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "",
-        "scan_time": 1709796036.568991,
+        "scan_time": 1709837333.4065976,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -92,7 +92,7 @@
     },
     "illinois.edu": {
         "geo_locations": [
-            "United States,Illinois,Champaign"
+            "Champaign,Illinois,United States"
         ],
         "hsts": false,
         "http_server": "Apache/2.4.57 (Red Hat Enterprise Linux) OpenSSL/3.0.7",
@@ -108,7 +108,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "",
-        "scan_time": 1709796030.7457826,
+        "scan_time": 1709837327.278442,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -116,7 +116,7 @@
     },
     "it.eecs.northwestern.edu": {
         "geo_locations": [
-            "United States,Illinois,Chicago"
+            "Chicago,Illinois,United States"
         ],
         "hsts": false,
         "http_server": "Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k",
@@ -130,7 +130,7 @@
         ],
         "redirect_to_https": false,
         "root_ca": "Unspecified",
-        "scan_time": 1709796030.0784035,
+        "scan_time": 1709837326.5943398,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -152,7 +152,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "Comodo CA Limited",
-        "scan_time": 1709796029.7215211,
+        "scan_time": 1709837326.128819,
         "tls_versions": [
             "TLSv1.2"
         ]
@@ -166,17 +166,17 @@
         "http_server": "cloudflare",
         "insecure_http": true,
         "ipv4_addresses": [
-            "172.67.132.72",
-            "104.21.4.169"
+            "104.21.4.169",
+            "172.67.132.72"
         ],
         "ipv6_addresses": [
-            "2606:4700:3035::ac43:8448",
-            "2606:4700:3033::6815:4a9"
+            "2606:4700:3033::6815:4a9",
+            "2606:4700:3035::ac43:8448"
         ],
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "GlobalSign nv-sa",
-        "scan_time": 1709796038.2339249,
+        "scan_time": 1709837335.3737311,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -200,7 +200,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "Comodo CA Limited",
-        "scan_time": 1709796029.5544448,
+        "scan_time": 1709837325.9809158,
         "tls_versions": [
             "TLSv1.2"
         ]
@@ -221,7 +221,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "Comodo CA Limited",
-        "scan_time": 1709796029.3472035,
+        "scan_time": 1709837325.7573469,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -244,7 +244,7 @@
         ],
         "redirect_to_https": false,
         "root_ca": "Comodo CA Limited",
-        "scan_time": 1709796037.6711373,
+        "scan_time": 1709837334.7238927,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -269,7 +269,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "GlobalSign",
-        "scan_time": 1709796037.0702324,
+        "scan_time": 1709837333.966899,
         "tls_versions": [
             "TLSv1.1",
             "TLSv1.2"
@@ -277,7 +277,7 @@
     },
     "stevetarzia.com": {
         "geo_locations": [
-            "United States,Ohio,Columbus"
+            "Columbus,Ohio,United States"
         ],
         "hsts": false,
         "http_server": "Apache/2.4.58 () OpenSSL/1.0.2k-fips PHP/5.4.16",
@@ -291,7 +291,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "Internet Security Research Group",
-        "scan_time": 1709796030.9645948,
+        "scan_time": 1709837327.5058117,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -314,7 +314,7 @@
         ],
         "redirect_to_https": false,
         "root_ca": "The USERTRUST Network",
-        "scan_time": 1709796030.2142224,
+        "scan_time": 1709837326.7318175,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -336,7 +336,7 @@
         ],
         "redirect_to_https": true,
         "root_ca": "Comodo CA Limited",
-        "scan_time": 1709796029.9504912,
+        "scan_time": 1709837326.3451169,
         "tls_versions": [
             "TLSv1.2"
         ]

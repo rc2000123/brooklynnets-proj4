@@ -5,6 +5,22 @@ import subprocess
 import socket
 import maxminddb
 import re
+
+dns_resolvers = [
+'208.67.222.222',
+'1.1.1.1',
+'8.8.8.8',
+'8.26.56.26',
+'9.9.9.9',
+'64.6.65.6',
+'91.239.100.100',
+'185.228.168.168',
+'77.88.8.7',
+'156.154.70.1',
+'198.101.242.72',
+'176.103.130.130',
+]
+
 class Scanner:
     def __init__(self,domain):
 
@@ -65,7 +81,9 @@ class Scanner:
     def get_IP_Addresses(self, record_type :str):
         list_of_ips = []
         try:
-            result = dns.resolver.resolve(self.domain, record_type)
+            resolver = dns.resolver.Resolver()
+            resolver.nameservers = dns_resolvers
+            result = resolver.resolve(self.domain, record_type)
             for ipval in result:
                 list_of_ips.append(ipval.to_text())
         except dns.resolver.NoAnswer:
@@ -186,12 +204,12 @@ class Scanner:
         for ip in self.IPv4s:
             with maxminddb.open_database('GeoLite2-City.mmdb') as reader:
                 res = reader.get(ip)
-                if "country" in res:
-                    locations.append(res["country"]["names"]["en"])
-                if  'subdivisions' in res:
-                    locations.append(res["subdivisions"][0]["names"]['en'])
                 if  'city' in res:
                     locations.append(res["city"]["names"]['en'])
+                if  'subdivisions' in res:
+                    locations.append(res["subdivisions"][0]["names"]['en'])                    
+                if "country" in res:
+                    locations.append(res["country"]["names"]["en"])
                 
                 addy_list.append(f','.join(locations))
         
