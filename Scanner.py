@@ -24,6 +24,7 @@ class Scanner:
         self.tls_versions =self.check_tls_support()    
         self.rdns_names = self.reverse_dns_lookup()
         self.geo_locations = self.get_geo_location()
+        self.rca = self.get_root_ca()
         
 
     def gen_dict(self):
@@ -37,7 +38,8 @@ class Scanner:
             "hsts": self.hsts,
             "tls_versions": self.tls_versions,
             "rdns_names": self.rdns_names,
-            "geo_locations": self.geo_locations
+            "geo_locations": self.geo_locations,
+            "root_ca": self.rca
         }
         return json_dict
         
@@ -130,6 +132,27 @@ class Scanner:
                 pass
 
         return results
+    
+    def get_root_ca(self):
+        try:
+            command = f"echo | openssl s_client -connect {self.domain}:443"
+            result = subprocess.run(command, shell=True, capture_output=True).stderr
+            print(result)
+
+            certificate_chain = result.split("---")[1]
+            bottom_row = certificate_chain.split("\n")[-1]
+
+            root_ca = bottom_row.split("0 = ")[1]
+            
+            print("root_ca: ", root_ca)
+
+            return root_ca
+            
+        except subprocess.CalledProcessError:
+            print("error, could not find ca")
+            return None
+
+        
     
     def get_rtt_for_ips(self):
         rtt_list = []
