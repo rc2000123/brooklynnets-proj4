@@ -4,7 +4,7 @@ import requests
 import subprocess
 import socket
 import maxminddb
-
+import re
 class Scanner:
     def __init__(self,domain):
 
@@ -60,7 +60,7 @@ class Scanner:
         
         return dns_list
                 
-                
+
     #return a list of ip address, record type can be A or AAAA
     def get_IP_Addresses(self, record_type :str):
         list_of_ips = []
@@ -136,13 +136,26 @@ class Scanner:
     def get_root_ca(self):
         try:
             command = f"echo | openssl s_client -connect {self.domain}:443"
-            result = subprocess.run(command, shell=True, capture_output=True).stderr
-            print(result)
+            result = subprocess.run(command, check=True, shell=True,stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+            
+            certificate_chain = str(result).split("---")[1]
 
-            certificate_chain = result.split("---")[1]
-            bottom_row = certificate_chain.split("\n")[-1]
+            bottom_row = certificate_chain.split("\\n")
 
-            root_ca = bottom_row.split("0 = ")[1]
+            
+            
+            comma_list = bottom_row[-2].split(',')
+            
+            root_ca = ""
+            for chunk in comma_list:
+                if ' O = ' in chunk:
+                    root_ca = chunk[len(' O = '):]
+                    
+            
+            
+            #print(match.group(1))
+
+            #root_ca = bottom_row.split("0 = ")[1]
             
             print("root_ca: ", root_ca)
 

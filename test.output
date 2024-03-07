@@ -1,0 +1,344 @@
+{
+    "asee.org": {
+        "geo_locations": [
+            "United States,Virginia,Washington"
+        ],
+        "hsts": false,
+        "http_server": "Microsoft-IIS/10.0",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "20.49.104.48"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709796035.7182217,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "auditoryneuroscience.com": {
+        "geo_locations": [
+            "Hong Kong,Central and Western District,Central"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.58 (Ubuntu)",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "144.214.26.111"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "twinkle.bms.cityu.edu.hk"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709796031.6095097,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "clocktab.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.67.170.124",
+            "104.21.87.176"
+        ],
+        "ipv6_addresses": [
+            "2606:4700:3035::ac43:aa7c",
+            "2606:4700:3033::6815:57b0"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign nv-sa",
+        "scan_time": 1709796031.391206,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "gradeinflation.com": {
+        "geo_locations": [
+            "Canada,British Columbia,Victoria"
+        ],
+        "hsts": false,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "51.79.45.180"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "gw1.ahs5.r4l.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709796036.568991,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "illinois.edu": {
+        "geo_locations": [
+            "United States,Illinois,Champaign"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.57 (Red Hat Enterprise Linux) OpenSSL/3.0.7",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "130.126.157.20"
+        ],
+        "ipv6_addresses": [
+            "2620:0:e00:4206::14"
+        ],
+        "rdns_names": [
+            "alma.techservices.illinois.edu"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709796030.7457826,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "it.eecs.northwestern.edu": {
+        "geo_locations": [
+            "United States,Illinois,Chicago"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.105.5.142"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "it.ece.northwestern.edu"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "Unspecified",
+        "scan_time": 1709796030.0784035,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "kellogg.northwestern.edu": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "Microsoft-IIS/10.0",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.147.150"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "www.kellogg.northwestern.edu"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709796029.7215211,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "kli.org": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.67.132.72",
+            "104.21.4.169"
+        ],
+        "ipv6_addresses": [
+            "2606:4700:3035::ac43:8448",
+            "2606:4700:3033::6815:4a9"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign nv-sa",
+        "scan_time": 1709796038.2339249,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "mccormick.northwestern.edu": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.41 (Ubuntu)",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.149.20"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "davinci20.tech.northwestern.edu"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709796029.5544448,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "northwestern.edu": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.105.136.48"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "evcommon-caesar-vip.northwestern.edu"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709796029.3472035,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "pmichaud.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.254.203.248"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "hwsrv-233708.hostwindsdns.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709796037.6711373,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "spacejam.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "Apache/2.4.57 () OpenSSL/1.0.2k-fips",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "75.2.104.223",
+            "99.83.180.228"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a259cf76d74e1f65f.awsglobalaccelerator.com",
+            "a259cf76d74e1f65f.awsglobalaccelerator.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709796037.0702324,
+        "tls_versions": [
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "stevetarzia.com": {
+        "geo_locations": [
+            "United States,Ohio,Columbus"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.58 () OpenSSL/1.0.2k-fips PHP/5.4.16",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.143.61.245"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "waffles.stevetarzia.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709796030.9645948,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "uchicago.edu": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.215.148.80"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ec2-3-215-148-80.compute-1.amazonaws.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709796030.2142224,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "users.cs.northwestern.edu": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.180.20"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "web1.cs.northwestern.edu"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709796029.9504912,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    }
+}
