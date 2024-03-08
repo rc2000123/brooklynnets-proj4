@@ -1,7 +1,22 @@
 import socket
 import time
+import subprocess
 
 def get_rtt(host, port):
+
+    try:
+        command = f"sh -c \"time echo -e '\x1dclose\x0d' | telnet {host} {port}\""
+        result = str(subprocess.run(command, check=True, shell=True,stdout=subprocess.PIPE, stderr=subprocess.STDOUT).stdout)
+        # print(result)
+        rtt = result.split("real\\t")[1][2:7]
+        print(rtt)
+
+            
+    except subprocess.CalledProcessError:
+        print("process error, could not get rtt")
+        return None
+
+'''     
     # Create a socket object
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
@@ -25,6 +40,6 @@ def get_rtt(host, port):
     finally:
         # Close the socket to clean up
         client_socket.close()
-
+'''
 # Example usage
-get_rtt('example.com', 80)  # Replace 'example.com' and 80 with your server's host and port
+get_rtt('142.250.191.206', 80)  # Replace 'example.com' and 80 with your server's host and port

@@ -1,0 +1,3 @@
+import texttable
+
+table = Texttable()

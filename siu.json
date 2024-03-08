@@ -1,0 +1,33 @@
+{
+    "amazon.com": {
+        "geo_locations": [
+            "United States,Virginia,Ashburn",
+            "United States,Virginia,Ashburn,United States,Virginia,Ashburn",
+            "United States,Virginia,Ashburn,United States,Virginia,Ashburn,United States,Virginia,Ashburn"
+        ],
+        "hsts": true,
+        "http_server": "Server",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "54.239.28.85",
+            "52.94.236.248",
+            "205.251.242.103"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "s3-console-us-standard.console.aws.amazon.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"VeriSign",
+        "rtt_range": [
+            1.0,
+            2.0
+        ],
+        "scan_time": 1709845738.0735705,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    }
+}

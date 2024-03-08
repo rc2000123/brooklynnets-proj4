@@ -25,6 +25,7 @@ class Scanner:
         self.rdns_names = self.reverse_dns_lookup()
         self.geo_locations = self.get_geo_location()
         self.rca = self.get_root_ca()
+        self.rtt_range = self.get_rtt_for_ips()
         
 
     def gen_dict(self):
@@ -39,7 +40,8 @@ class Scanner:
             "tls_versions": self.tls_versions,
             "rdns_names": self.rdns_names,
             "geo_locations": self.geo_locations,
-            "root_ca": self.rca
+            "root_ca": self.rca,
+            "rtt_range": self.rtt_range
         }
         return json_dict
         
@@ -72,6 +74,7 @@ class Scanner:
             print(f"No record exists for {self.domain}.")
         except Exception as e:
             print(f"Error occurred: {e}")
+        print(list_of_ips)
         return list_of_ips
 
     #return the headers of some http header value using a get request
@@ -86,6 +89,7 @@ class Scanner:
             ###MAKE SURE WITH TA IS IS FINE
             url = "http://" + self.domain
             response = requests.get(url, timeout=5)
+            
         except requests.exceptions.RequestException as e:
             return f"An error occurred: {e}"   
         
@@ -136,13 +140,29 @@ class Scanner:
     def get_root_ca(self):
         try:
             command = f"echo | openssl s_client -connect {self.domain}:443"
-            result = subprocess.run(command, shell=True, capture_output=True).stderr
-            print(result)
+            result = subprocess.run(command, check=True, shell=True,stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+            
+            certificate_chain = str(result).split("---")[1]
 
-            certificate_chain = result.split("---")[1]
-            bottom_row = certificate_chain.split("\n")[-1]
+            bottom_row = certificate_chain.split("\\n")
+            print(bottom_row)
 
-            root_ca = bottom_row.split("0 = ")[1]
+            
+            
+            comma_list = bottom_row[-2].split(',')
+            
+            root_ca = ""
+            for chunk in comma_list:
+                if ' O = ' in chunk:
+                    root_ca = chunk[len(' O = '):]
+                elif 'i:O = ' in chunk:
+                    root_ca = chunk[len('i:O = '):]
+                    
+            
+            
+            #print(match.group(1))
+
+            #root_ca = bottom_row.split("0 = ")[1]
             
             print("root_ca: ", root_ca)
 
@@ -152,19 +172,44 @@ class Scanner:
             print("error, could not find ca")
             return None
 
+
         
     
     def get_rtt_for_ips(self):
+        def get_rtt(host, port):
+            try:
+                command = f"sh -c \"time echo -e '\x1dclose\x0d' | telnet {host} {port}\""
+                result = str(subprocess.run(command, shell=True,stdout=subprocess.PIPE, stderr=subprocess.STDOUT).stdout)
+                # print(result)
+                rtt = result.split("real\\t")[1][2:7]
+                # print(rtt)
+                return float(rtt)
+
+                    
+            except subprocess.CalledProcessError as e:
+                print("process error, could not get rtt")
+                return None
         rtt_list = []
         common_ports = [80, 22, 443]
+
+        if not self.IPv4s:
+            return None
+            
         for ip in self.IPv4s:
-            rtt = get_rtt(ip,common_ports)
-            if rtt != -1:
-                rtt_list.append(rtt)
-                #only need one to work
-                break
-        
-        return [min(rtt_list),max(rtt_list)]
+            for port in common_ports:
+                rtt = get_rtt(ip,common_ports)
+                if rtt is not None:
+                    rtt_list.append(rtt)
+                    #only need one to work
+                    break
+
+            print(rtt_list)
+
+        if rtt_list:
+            return [min(rtt_list)*1000,max(rtt_list)*1000]
+
+        else:
+            return None
 
     def get_geo_location(self):
         locations = []
@@ -184,40 +229,7 @@ class Scanner:
         
         return addy_list
 
-def get_rtt(host, port, timeout=2.0):
-    rtt = -1
-    # Create a socket object
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    # Set a timeout on all socket operations
-    client_socket.settimeout(timeout)
-    
-    try:
-        # Connect to the server
-        client_socket.connect((host, port))
-        
-        # Send some data (a simple "ping" message)
-        message = 'ping'
-        start_time = time.time()  # Record the send time
-        client_socket.sendall(message.encode())
-        
-        # Wait for the response
-        response = client_socket.recv(1024)
-        end_time = time.time()  # Record the receive time
-        
-        # Calculate RTT
-        rtt = end_time - start_time
-        print(f"RTT: {rtt} seconds")
-        
-    except socket.timeout:
-        # Handle the timeout case
-        print("Request timed out")
-    except Exception as e:
-        # Handle other potential exceptions
-        print(f"An error occurred: {e}")
-    finally:
-        # Ensure the socket is closed
-        client_socket.close()
-        return rtt
-        
+
+
+            
 
