@@ -80,16 +80,21 @@ class Scanner:
     #return a list of ip address, record type can be A or AAAA
     def get_IP_Addresses(self, record_type :str):
         list_of_ips = []
-        try:
-            resolver = dns.resolver.Resolver()
-            resolver.nameservers = dns_resolvers
-            result = resolver.resolve(self.domain, record_type)
-            for ipval in result:
-                list_of_ips.append(ipval.to_text())
-        except dns.resolver.NoAnswer:
-            print(f"No record exists for {self.domain}.")
-        except Exception as e:
-            print(f"Error occurred: {e}")
+        for dns_resolver in dns_resolvers:
+            try:
+                
+                    print("dns_resolver: ",dns_resolver)
+                    resolver = dns.resolver.Resolver()
+                    resolver.nameservers = [dns_resolver]
+                    result = resolver.resolve(self.domain, record_type)
+                    for ipval in result:
+                        print(ipval)
+                        if ipval.to_text() not in list_of_ips:
+                            list_of_ips.append(ipval.to_text())
+            except dns.resolver.NoAnswer:
+                print(f"No record exists for {self.domain}.")
+            except Exception as e:
+                print(f"Error occurred: {e}")
         return list_of_ips
 
     #return the headers of some http header value using a get request
@@ -198,20 +203,24 @@ class Scanner:
         return [min(rtt_list),max(rtt_list)]
 
     def get_geo_location(self):
-        locations = []
+        
         
         addy_list = []
         for ip in self.IPv4s:
             with maxminddb.open_database('GeoLite2-City.mmdb') as reader:
+                locations = []
                 res = reader.get(ip)
-                if  'city' in res:
-                    locations.append(res["city"]["names"]['en'])
-                if  'subdivisions' in res:
-                    locations.append(res["subdivisions"][0]["names"]['en'])                    
-                if "country" in res:
-                    locations.append(res["country"]["names"]["en"])
+                if res is not None:
+                    if  'city' in res:
+                        locations.append(res["city"]["names"]['en'])
+                    if  'subdivisions' in res:
+                        locations.append(res["subdivisions"][0]["names"]['en'])                    
+                    if "country" in res:
+                        locations.append(res["country"]["names"]["en"])
                 
-                addy_list.append(f','.join(locations))
+                    location_str = ', '.join(locations)
+                    if location_str != "" and location_str not in addy_list:
+                        addy_list.append(location_str)
         
         return addy_list
 

@@ -1,0 +1,2595 @@
+{
+    "accuweather.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "AkamaiGHost",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.53.55.80"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-53-55-80.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841957.2018452,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "allrecipes.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.66.137",
+            "151.101.130.137",
+            "151.101.194.137",
+            "151.101.2.137"
+        ],
+        "ipv6_addresses": [
+            "2a04:4e42::649",
+            "2a04:4e42:200::649",
+            "2a04:4e42:400::649",
+            "2a04:4e42:600::649"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709841932.997738,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "amazon.com": {
+        "geo_locations": [
+            "Ashburn,Virginia,United States",
+            "Ashburn,Virginia,United States,Ashburn,Virginia,United States",
+            "Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States"
+        ],
+        "hsts": true,
+        "http_server": "Server",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "52.94.236.248",
+            "54.239.28.85",
+            "205.251.242.103"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "s3-console-us-standard.console.aws.amazon.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"VeriSign",
+        "scan_time": 1709841892.5116637,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "aol.com": {
+        "geo_locations": [
+            "Singapore,Singapore",
+            "Singapore,Singapore,Singapore,Singapore",
+            "Singapore,Singapore,Singapore,Singapore,United States",
+            "Singapore,Singapore,Singapore,Singapore,United States,United States",
+            "Singapore,Singapore,Singapore,Singapore,United States,United States,Boardman,Oregon,United States",
+            "Singapore,Singapore,Singapore,Singapore,United States,United States,Boardman,Oregon,United States,Ashburn,Virginia,United States",
+            "Singapore,Singapore,Singapore,Singapore,United States,United States,Boardman,Oregon,United States,Ashburn,Virginia,United States,Stockholm,Stockholm County,Sweden",
+            "Singapore,Singapore,Singapore,Singapore,United States,United States,Boardman,Oregon,United States,Ashburn,Virginia,United States,Stockholm,Stockholm County,Sweden,Stockholm,Stockholm County,Sweden"
+        ],
+        "hsts": true,
+        "http_server": "ATS",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "13.251.69.97",
+            "18.136.37.69",
+            "34.213.101.254",
+            "34.225.127.72",
+            "44.228.206.170",
+            "54.161.105.65",
+            "13.49.212.207",
+            "13.50.184.192"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ec2-13-251-69-97.ap-southeast-1.compute.amazonaws.com",
+            "ec2-18-136-37-69.ap-southeast-1.compute.amazonaws.com",
+            "ec2-34-213-101-254.us-west-2.compute.amazonaws.com",
+            "ec2-34-225-127-72.compute-1.amazonaws.com",
+            "ec2-44-228-206-170.us-west-2.compute.amazonaws.com",
+            "ec2-54-161-105-65.compute-1.amazonaws.com",
+            "ec2-13-49-212-207.eu-north-1.compute.amazonaws.com",
+            "ec2-13-50-184-192.eu-north-1.compute.amazonaws.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841942.119034,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "apartments.com": {
+        "geo_locations": [
+            "Houston,Texas,United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "23.213.37.49"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-213-37-49.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841967.5837762,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "apple.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "Apple",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "17.253.144.10"
+        ],
+        "ipv6_addresses": [
+            "2620:149:af0::10"
+        ],
+        "rdns_names": [
+            "livepage.apple.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841906.8690286,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "bankofamerica.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "Oops",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "171.159.228.150",
+            "171.161.148.150"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "\"Entrust",
+        "scan_time": 1709841974.1168523,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "bbb.org": {
+        "geo_locations": [
+            "Ashburn,Virginia,United States",
+            "Ashburn,Virginia,United States,Ashburn,Virginia,United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "54.84.199.49",
+            "3.81.196.96"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ec2-54-84-199-49.compute-1.amazonaws.com",
+            "ec2-3-81-196-96.compute-1.amazonaws.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841974.9485562,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "bestbuy.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.32.108.230"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-32-108-230.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841923.3617694,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "bleacherreport.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.65.91",
+            "151.101.129.91",
+            "151.101.193.91",
+            "151.101.1.91"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841956.5897925,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "books.google.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "OFE/0.1",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "142.250.191.174"
+        ],
+        "ipv6_addresses": [
+            "2607:f8b0:4009:819::200e"
+        ],
+        "rdns_names": [
+            "ord38s30-in-f14.1e100.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign nv-sa",
+        "scan_time": 1709841973.647171,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "britannica.com": {
+        "geo_locations": [
+            "United States",
+            "United States,Ashburn,Virginia,United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "34.197.161.173",
+            "35.153.242.251"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ec2-34-197-161-173.compute-1.amazonaws.com",
+            "ec2-35-153-242-251.compute-1.amazonaws.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841921.007151,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "businessinsider.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.129.171",
+            "151.101.193.171",
+            "151.101.1.171",
+            "151.101.65.171"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841921.7469823,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "ca.gov": {
+        "geo_locations": [
+            "San Jose,California,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "13.87.221.220"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709841955.3178592,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "cbssports.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "ContentServer",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.1.188",
+            "151.101.65.188",
+            "151.101.129.188",
+            "151.101.193.188"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709841954.7784395,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "chase.com": {
+        "geo_locations": [
+            "New York,New York,United States",
+            "New York,New York,United States,United States",
+            "New York,New York,United States,United States,United States",
+            "New York,New York,United States,United States,United States,United States",
+            "New York,New York,United States,United States,United States,United States,United States",
+            "New York,New York,United States,United States,United States,United States,United States,United States",
+            "New York,New York,United States,United States,United States,United States,United States,United States,New York,New York,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "159.53.85.137",
+            "159.53.113.168",
+            "159.53.116.62",
+            "159.53.224.21",
+            "159.53.42.11",
+            "159.53.44.60",
+            "159.53.84.126"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "\"Entrust",
+        "scan_time": 1709841965.9561248,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "cnet.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "34.149.196.126"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "126.196.149.34.bc.googleusercontent.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign nv-sa",
+        "scan_time": 1709841934.4415293,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "cnn.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.195.5",
+            "151.101.3.5",
+            "151.101.67.5",
+            "151.101.131.5"
+        ],
+        "ipv6_addresses": [
+            "2a04:4e42:a00::773",
+            "2a04:4e42:c00::773",
+            "2a04:4e42:e00::773",
+            "2a04:4e42::773",
+            "2a04:4e42:200::773",
+            "2a04:4e42:400::773",
+            "2a04:4e42:600::773",
+            "2a04:4e42:800::773"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841908.9657,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "craigslist.org": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "208.82.237.129"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "www.craigslist.org"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841902.0467713,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "dictionary.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.194.133",
+            "151.101.2.133",
+            "151.101.66.133",
+            "151.101.130.133"
+        ],
+        "ipv6_addresses": [
+            "2a04:4e42:600::645",
+            "2a04:4e42::645",
+            "2a04:4e42:200::645",
+            "2a04:4e42:400::645"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709841922.1859994,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "ebay.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "ebay-proxy-server",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.33.40.86",
+            "23.33.40.75"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-33-40-86.deploy.static.akamaitechnologies.com",
+            "a23-33-40-75.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709841903.2195616,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "en.wikipedia.org": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "mw-web.eqiad.canary-db994dd48-2g2l6",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "208.80.154.224"
+        ],
+        "ipv6_addresses": [
+            "2620:0:861:ed1a::1"
+        ],
+        "rdns_names": [
+            "text-lb.eqiad.wikimedia.org"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709841890.7274578,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "espn.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "CloudFront",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "99.84.160.10",
+            "99.84.160.55",
+            "99.84.160.68",
+            "99.84.160.8"
+        ],
+        "ipv6_addresses": [
+            "2600:9000:20e9:f400:d:ac18:e2c0:93a1",
+            "2600:9000:20e9:4200:d:ac18:e2c0:93a1",
+            "2600:9000:20e9:4a00:d:ac18:e2c0:93a1",
+            "2600:9000:20e9:6000:d:ac18:e2c0:93a1",
+            "2600:9000:20e9:7c00:d:ac18:e2c0:93a1",
+            "2600:9000:20e9:8200:d:ac18:e2c0:93a1",
+            "2600:9000:20e9:8600:d:ac18:e2c0:93a1",
+            "2600:9000:20e9:f200:d:ac18:e2c0:93a1"
+        ],
+        "rdns_names": [
+            "server-99-84-160-10.ord52.r.cloudfront.net",
+            "server-99-84-160-55.ord52.r.cloudfront.net",
+            "server-99-84-160-68.ord52.r.cloudfront.net",
+            "server-99-84-160-8.ord52.r.cloudfront.net"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "\"Entrust",
+        "scan_time": 1709841907.109628,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "etsy.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.129.224",
+            "151.101.193.224",
+            "151.101.1.224",
+            "151.101.65.224"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841905.809194,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "expedia.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "istio-envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.61.39.121"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-61-39-121.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841975.7375584,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "facebook.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "157.240.249.35"
+        ],
+        "ipv6_addresses": [
+            "2a03:2880:f175:81:face:b00c:0:25de"
+        ],
+        "rdns_names": [
+            "edge-star-mini-shv-01-ord5.facebook.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841892.101735,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "fandom.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "199.232.208.194",
+            "199.232.212.194"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841895.249302,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "fb.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "157.240.249.35"
+        ],
+        "ipv6_addresses": [
+            "2a03:2880:f175:81:face:b00c:0:25de"
+        ],
+        "rdns_names": [
+            "edge-star-mini-shv-01-ord5.facebook.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841907.8498645,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "finance.yahoo.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "ATS",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "69.147.65.251",
+            "69.147.65.252"
+        ],
+        "ipv6_addresses": [
+            "2001:4998:60:807::2",
+            "2001:4998:60:807::1"
+        ],
+        "rdns_names": [
+            "e1-bmr.ycpi.cha.yahoo.com",
+            "e2-bmr.ycpi.cha.yahoo.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841934.7252314,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "foodnetwork.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "54.230.18.101",
+            "54.230.18.121",
+            "54.230.18.22",
+            "54.230.18.38"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "server-54-230-18-101.ord51.r.cloudfront.net",
+            "server-54-230-18-121.ord51.r.cloudfront.net",
+            "server-54-230-18-22.ord51.r.cloudfront.net",
+            "server-54-230-18-38.ord51.r.cloudfront.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841952.816218,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "forbes.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "rhino-core-shield",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.66.49",
+            "151.101.130.49",
+            "151.101.194.49",
+            "151.101.2.49"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841934.1321719,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "foxnews.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.35.253.109"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-35-253-109.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841932.4842079,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "gamepedia.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.128.194"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709841909.522272,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "genius.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.18.23.208",
+            "104.18.22.208"
+        ],
+        "ipv6_addresses": [
+            "2606:4700::6812:16d0",
+            "2606:4700::6812:17d0"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "Baltimore",
+        "scan_time": 1709841932.7155879,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "glassdoor.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.17.152.86",
+            "104.17.141.86"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "Baltimore",
+        "scan_time": 1709841933.9207675,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "go.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "13.248.150.189",
+            "76.223.18.1"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a43ace875fd13aca7.awsglobalaccelerator.com",
+            "a43ace875fd13aca7.awsglobalaccelerator.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Entrust",
+        "scan_time": 1709841958.2357807,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "google.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "gws",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.217.2.46"
+        ],
+        "ipv6_addresses": [
+            "2607:f8b0:4009:802::200e"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "GlobalSign nv-sa",
+        "scan_time": 1709841908.543676,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "groupon.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "23.213.113.236"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-213-113-236.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841958.9910522,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "healthline.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.162.163.43",
+            "3.162.163.66",
+            "3.162.163.15",
+            "3.162.163.33"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "server-3-162-163-43.ord56.r.cloudfront.net",
+            "server-3-162-163-66.ord56.r.cloudfront.net",
+            "server-3-162-163-15.ord56.r.cloudfront.net",
+            "server-3-162-163-33.ord56.r.cloudfront.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841905.4989128,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "homedepot.com": {
+        "geo_locations": [
+            "Kansas City,Missouri,United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "35.201.95.83"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "83.95.201.35.bc.googleusercontent.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "\"Entrust",
+        "scan_time": 1709841911.68306,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "huffpost.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "18.172.122.85",
+            "18.172.122.89",
+            "18.172.122.110",
+            "18.172.122.47"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "server-18-172-122-85.ord56.r.cloudfront.net",
+            "server-18-172-122-89.ord56.r.cloudfront.net",
+            "server-18-172-122-110.ord56.r.cloudfront.net",
+            "server-18-172-122-47.ord56.r.cloudfront.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841973.324858,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "hulu.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.220.251.236",
+            "23.220.251.242"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-220-251-236.deploy.static.akamaitechnologies.com",
+            "a23-220-251-242.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709841953.139398,
+        "tls_versions": [
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "ign.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.65.135",
+            "151.101.129.135",
+            "151.101.193.135",
+            "151.101.1.135"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841976.5325456,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "imdb.com": {
+        "geo_locations": [
+            "Ashburn,Virginia,United States",
+            "Ashburn,Virginia,United States,Ashburn,Virginia,United States",
+            "Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States"
+        ],
+        "hsts": true,
+        "http_server": "Server",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "52.94.228.167",
+            "52.94.237.74",
+            "52.94.225.248"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841894.4758456,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "indeed.com": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "162.159.130.67",
+            "162.159.129.67"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "",
+        "scan_time": 1709841906.6650465,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "instagram.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "157.240.249.174"
+        ],
+        "ipv6_addresses": [
+            "2a03:2880:f275:e9:face:b00c:0:4420"
+        ],
+        "rdns_names": [
+            "instagram-p42-shv-01-ord5.fbcdn.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841901.2766626,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "investopedia.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.2.137",
+            "151.101.66.137",
+            "151.101.130.137",
+            "151.101.194.137"
+        ],
+        "ipv6_addresses": [
+            "2a04:4e42:200::649",
+            "2a04:4e42:400::649",
+            "2a04:4e42:600::649",
+            "2a04:4e42::649"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709841964.209017,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "irs.gov": {
+        "geo_locations": [
+            "Detroit,Michigan,United States",
+            "Detroit,Michigan,United States,Detroit,Michigan,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "152.216.11.110",
+            "152.216.7.110"
+        ],
+        "ipv6_addresses": [
+            "2610:30:2000:402::110",
+            "2610:30:4000:402::110"
+        ],
+        "rdns_names": [
+            "irs.gov",
+            "irs.gov"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Entrust",
+        "scan_time": 1709841935.6239448,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "linkedin.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "13.107.42.14"
+        ],
+        "ipv6_addresses": [
+            "2620:1ec:21::14"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841904.3795922,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "live.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "AkamaiNetStorage",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "204.79.197.212"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a-0010.a-msedge.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841954.3598933,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "lowes.com": {
+        "geo_locations": [
+            "Sydney,New South Wales,Australia"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "23.59.182.157"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-59-182-157.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841936.319101,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "macys.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "AkamaiNetStorage",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.218.188.227"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-218-188-227.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709841956.8575432,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "mail.yahoo.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "ATS",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "69.147.65.252",
+            "69.147.65.251"
+        ],
+        "ipv6_addresses": [
+            "2001:4998:60:807::2",
+            "2001:4998:60:807::1"
+        ],
+        "rdns_names": [
+            "e2-bmr.ycpi.cha.yahoo.com",
+            "e1-bmr.ycpi.cha.yahoo.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841941.6464145,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "mapquest.com": {
+        "geo_locations": [
+            "Ashburn,Virginia,United States",
+            "Ashburn,Virginia,United States,United States",
+            "Ashburn,Virginia,United States,United States,Ashburn,Virginia,United States"
+        ],
+        "hsts": true,
+        "http_server": "Apache/2.4.49 (Unix) OpenSSL/1.1.1l",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "44.199.46.119",
+            "52.4.61.191",
+            "18.204.106.133"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ec2-44-199-46-119.compute-1.amazonaws.com",
+            "ec2-52-4-61-191.compute-1.amazonaws.com",
+            "ec2-18-204-106-133.compute-1.amazonaws.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841920.171425,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "mayoclinic.org": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "Google Frontend",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.176.1.88"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "mwredirects5.mayo.edu"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709841922.7464283,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "medicalnewstoday.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.162.174.60",
+            "3.162.174.83",
+            "3.162.174.43",
+            "3.162.174.53"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "server-3-162-174-60.ord56.r.cloudfront.net",
+            "server-3-162-174-83.ord56.r.cloudfront.net",
+            "server-3-162-174-43.ord56.r.cloudfront.net",
+            "server-3-162-174-53.ord56.r.cloudfront.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841926.550653,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "merriam-webster.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "108.156.120.51",
+            "108.156.120.104",
+            "108.156.120.129",
+            "108.156.120.21"
+        ],
+        "ipv6_addresses": [
+            "2600:9000:234f:d400:c:3d32:e340:93a1",
+            "2600:9000:234f:e800:c:3d32:e340:93a1",
+            "2600:9000:234f:2e00:c:3d32:e340:93a1",
+            "2600:9000:234f:7c00:c:3d32:e340:93a1",
+            "2600:9000:234f:8200:c:3d32:e340:93a1",
+            "2600:9000:234f:9200:c:3d32:e340:93a1",
+            "2600:9000:234f:9c00:c:3d32:e340:93a1",
+            "2600:9000:234f:d200:c:3d32:e340:93a1"
+        ],
+        "rdns_names": [
+            "server-108-156-120-51.ord56.r.cloudfront.net",
+            "server-108-156-120-104.ord56.r.cloudfront.net",
+            "server-108-156-120-129.ord56.r.cloudfront.net",
+            "server-108-156-120-21.ord56.r.cloudfront.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841909.2428916,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "microsoft.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States",
+            "United States,United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "AkamaiNetStorage",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "20.236.44.162",
+            "20.70.246.20",
+            "20.76.201.171",
+            "20.112.250.133",
+            "20.231.239.246"
+        ],
+        "ipv6_addresses": [
+            "2603:1030:b:3::152",
+            "2603:1030:20e:3::23c",
+            "2603:1030:c02:8::14",
+            "2603:1010:3:3::5b",
+            "2603:1020:201:10::10f"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841909.8326414,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "msn.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "204.79.197.219"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841925.695024,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "netflix.com": {
+        "geo_locations": [
+            "Ashburn,Virginia,United States",
+            "Ashburn,Virginia,United States,Ashburn,Virginia,United States",
+            "Ashburn,Virginia,United States,Ashburn,Virginia,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "nq_website_nonmember-prod-release 50fe9d4f-33f0-4fd5-b841-5ddef7c30dfa",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "54.237.226.164",
+            "3.230.129.93",
+            "52.3.144.142"
+        ],
+        "ipv6_addresses": [
+            "2600:1f18:631e:2f85:93a9:f7b0:d18:89a7",
+            "2600:1f18:631e:2f83:49ee:beaa:2dfd:ae8f",
+            "2600:1f18:631e:2f84:4f7a:4092:e2e9:c617"
+        ],
+        "rdns_names": [
+            "ec2-54-237-226-164.compute-1.amazonaws.com",
+            "ec2-3-230-129-93.compute-1.amazonaws.com",
+            "ec2-52-3-144-142.compute-1.amazonaws.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841918.5446153,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "nih.gov": {
+        "geo_locations": [
+            "Hamilton,Montana,United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "156.40.212.210"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "nih.gov"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "\"The Go Daddy Group",
+        "scan_time": 1709841917.7776845,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "npr.org": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "99.84.160.44",
+            "99.84.160.96",
+            "99.84.160.122",
+            "99.84.160.36"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "server-99-84-160-44.ord52.r.cloudfront.net",
+            "server-99-84-160-96.ord52.r.cloudfront.net",
+            "server-99-84-160-122.ord52.r.cloudfront.net",
+            "server-99-84-160-36.ord52.r.cloudfront.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841967.1922812,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "nytimes.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.193.164",
+            "151.101.1.164",
+            "151.101.65.164",
+            "151.101.129.164"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841908.290637,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "office.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "13.107.6.156"
+        ],
+        "ipv6_addresses": [
+            "2620:1ec:a92::156"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841950.5565348,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "paypal.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "64.4.250.36",
+            "64.4.250.37",
+            "151.101.129.21"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "paypal.com",
+            "paypal.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841951.8151762,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "pinterest.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.192.84",
+            "151.101.0.84",
+            "151.101.64.84",
+            "151.101.128.84"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841895.4774756,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "play.google.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "ESF",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "142.250.191.142"
+        ],
+        "ipv6_addresses": [
+            "2607:f8b0:4009:818::200e"
+        ],
+        "rdns_names": [
+            "ord38s29-in-f14.1e100.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign nv-sa",
+        "scan_time": 1709841904.8008952,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "quizlet.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.17.187.102",
+            "104.17.188.102"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Baltimore",
+        "scan_time": 1709841919.604646,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "quora.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,Ashburn,Virginia,United States",
+            "United States,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States",
+            "United States,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States",
+            "United States,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States",
+            "United States,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,United States",
+            "United States,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,Ashburn,Virginia,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "52.4.116.49",
+            "52.22.112.38",
+            "52.45.223.66",
+            "52.45.226.173",
+            "52.54.39.58",
+            "52.54.185.130",
+            "52.2.141.61",
+            "52.3.162.157"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ec2-52-4-116-49.compute-1.amazonaws.com",
+            "ec2-52-22-112-38.compute-1.amazonaws.com",
+            "ec2-52-45-223-66.compute-1.amazonaws.com",
+            "ec2-52-45-226-173.compute-1.amazonaws.com",
+            "ec2-52-54-39-58.compute-1.amazonaws.com",
+            "ec2-52-54-185-130.compute-1.amazonaws.com",
+            "ec2-52-2-141-61.compute-1.amazonaws.com",
+            "ec2-52-3-162-157.compute-1.amazonaws.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709841916.918963,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "reddit.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "snooserv",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.65.140",
+            "151.101.129.140",
+            "151.101.193.140",
+            "151.101.1.140"
+        ],
+        "ipv6_addresses": [
+            "2a04:4e42:600::396",
+            "2a04:4e42::396",
+            "2a04:4e42:200::396",
+            "2a04:4e42:400::396"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841893.9710844,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "retailmenot.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.18.36.156",
+            "172.64.151.100"
+        ],
+        "ipv6_addresses": [
+            "2606:4700:4400::6812:249c",
+            "2606:4700:4400::ac40:9764"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709841950.8286126,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "roblox.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "128.116.101.4"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709841973.0614345,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "rottentomatoes.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.213.115.148"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-213-115-148.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709841918.2525892,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "spotify.com": {
+        "geo_locations": [
+            "Kansas City,Missouri,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "35.186.224.25"
+        ],
+        "ipv6_addresses": [
+            "2600:1901:1:c36::"
+        ],
+        "rdns_names": [
+            "25.224.186.35.bc.googleusercontent.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841933.5072408,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "steamcommunity.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.98.68.175"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a104-98-68-175.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841965.6113586,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "steampowered.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "96.17.79.166"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a96-17-79-166.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709841943.933098,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "target.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.2.187",
+            "151.101.66.187",
+            "151.101.130.187",
+            "151.101.194.187"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841911.3587472,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "techradar.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "199.232.198.114",
+            "199.232.194.114"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709841958.7341266,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "theguardian.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.129.111",
+            "151.101.193.111",
+            "151.101.1.111",
+            "151.101.65.111"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841924.0744436,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "tripadvisor.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "151.101.66.28",
+            "151.101.130.28",
+            "151.101.194.28",
+            "151.101.2.28"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": false,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841895.8945901,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "twitter.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "tsa_b",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.244.42.193"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841891.3835716,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "urbandictionary.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "Google Frontend",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "34.160.205.245"
+        ],
+        "ipv6_addresses": [
+            "2600:1901:0:efcd::"
+        ],
+        "rdns_names": [
+            "245.205.160.34.bc.googleusercontent.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign nv-sa",
+        "scan_time": 1709841926.9529207,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "usatoday.com": {
+        "geo_locations": [
+            "Sweden"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "146.75.82.62"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709841926.014538,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "usnews.com": {
+        "geo_locations": [
+            ""
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "2.17.88.37"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a2-17-88-37.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709841927.2532718,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "usps.com": {
+        "geo_locations": [
+            "Silver Spring,Maryland,United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "56.0.134.100"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "usps.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709841949.9737813,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "walmart.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.39.184.173"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-39-184-173.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709841901.826689,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "washingtonpost.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "104.106.175.75"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a104-106-175-75.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "\"Entrust",
+        "scan_time": 1709841944.752226,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "wayfair.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.65.252",
+            "151.101.129.252",
+            "151.101.193.252",
+            "151.101.1.252"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709841954.9965503,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "weather.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.12.10.186"
+        ],
+        "ipv6_addresses": [
+            "2600:1407:e800:1181::2e03",
+            "2600:1407:e800:118b::2e03"
+        ],
+        "rdns_names": [
+            "a23-12-10-186.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841919.8764944,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "webmd.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "207.231.204.56"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709841907.342262,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "wellsfargo.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.45.46.200",
+            "23.45.46.203"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-45-46-200.deploy.static.akamaitechnologies.com",
+            "a23-45-46-203.deploy.static.akamaitechnologies.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841966.6925194,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "wikihow.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.129.91",
+            "151.101.193.91",
+            "151.101.1.91",
+            "151.101.65.91"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "",
+        "scan_time": 1709841976.2053325,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "wiktionary.org": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "ATS/9.1.4",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "208.80.154.224"
+        ],
+        "ipv6_addresses": [
+            "2620:0:861:ed1a::1"
+        ],
+        "rdns_names": [
+            "text-lb.eqiad.wikimedia.org"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709841951.0951672,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "wowhead.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "18.160.200.74",
+            "18.160.200.93",
+            "18.160.200.125",
+            "18.160.200.24"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "server-18-160-200-74.ord56.r.cloudfront.net",
+            "server-18-160-200-93.ord56.r.cloudfront.net",
+            "server-18-160-200-125.ord56.r.cloudfront.net",
+            "server-18-160-200-24.ord56.r.cloudfront.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841992.7922013,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "xfinity.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "96.99.240.130"
+        ],
+        "ipv6_addresses": [
+            "2001:558:feed:dc:96:99:240:130"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Comodo CA Limited",
+        "scan_time": 1709841957.5000718,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "yahoo.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States",
+            "United States,United States,United States,United States,United States",
+            "United States,United States,United States,United States,United States,United States"
+        ],
+        "hsts": true,
+        "http_server": "ATS",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "98.137.11.164",
+            "74.6.143.25",
+            "74.6.143.26",
+            "74.6.231.20",
+            "74.6.231.21",
+            "98.137.11.163"
+        ],
+        "ipv6_addresses": [
+            "2001:4998:124:1507::f001",
+            "2001:4998:24:120d::1:0",
+            "2001:4998:24:120d::1:1",
+            "2001:4998:44:3507::8000",
+            "2001:4998:44:3507::8001",
+            "2001:4998:124:1507::f000"
+        ],
+        "rdns_names": [
+            "media-router-fp73.prod.media.vip.gq1.yahoo.com",
+            "media-router-fp73.prod.media.vip.bf1.yahoo.com",
+            "media-router-fp74.prod.media.vip.bf1.yahoo.com",
+            "media-router-fp73.prod.media.vip.ne1.yahoo.com",
+            "media-router-fp74.prod.media.vip.ne1.yahoo.com",
+            "media-router-fp74.prod.media.vip.gq1.yahoo.com"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841924.363051,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "yellowpages.com": {
+        "geo_locations": [
+            "Carrollton,Texas,United States",
+            "Carrollton,Texas,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "openresty",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "208.93.105.116",
+            "151.138.15.18"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841964.6661537,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "yelp.com": {
+        "geo_locations": [
+            "Sweden"
+        ],
+        "hsts": true,
+        "http_server": "envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "146.75.76.116"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709841893.259618,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "youtube.com": {
+        "geo_locations": [
+            "United States"
+        ],
+        "hsts": true,
+        "http_server": "ESF",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.217.1.110"
+        ],
+        "ipv6_addresses": [
+            "2607:f8b0:4009:801::200e"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign nv-sa",
+        "scan_time": 1709841890.2268958,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "zillow.com": {
+        "geo_locations": [
+            "United States",
+            "United States,United States",
+            "United States,United States,United States",
+            "United States,United States,United States,United States"
+        ],
+        "hsts": false,
+        "http_server": "CloudFront",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "13.226.22.107",
+            "13.226.22.29",
+            "13.226.22.42",
+            "13.226.22.63"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "server-13-226-22-107.ord51.r.cloudfront.net",
+            "server-13-226-22-29.ord51.r.cloudfront.net",
+            "server-13-226-22-42.ord51.r.cloudfront.net",
+            "server-13-226-22-63.ord51.r.cloudfront.net"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "\"Starfield Technologies",
+        "scan_time": 1709841922.4096293,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    }
+}
