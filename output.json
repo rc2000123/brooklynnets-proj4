@@ -7,9 +7,9 @@
         "http_server": "Server",
         "insecure_http": true,
         "ipv4_addresses": [
+            "54.239.28.85",
             "205.251.242.103",
-            "52.94.236.248",
-            "54.239.28.85"
+            "52.94.236.248"
         ],
         "ipv6_addresses": [],
         "rdns_names": [
@@ -18,10 +18,10 @@
         "redirect_to_https": true,
         "root_ca": "VeriSign, Inc.",
         "rtt_range": [
-            23.0,
-            26.0
+            26.0,
+            28.0
         ],
-        "scan_time": 1709936749.0038786,
+        "scan_time": 1709939454.9695354,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -46,7 +46,7 @@
             22.0,
             22.0
         ],
-        "scan_time": 1709936749.0324917,
+        "scan_time": 1709939454.9949877,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -72,7 +72,7 @@
             247.0,
             247.0
         ],
-        "scan_time": 1709936749.031811,
+        "scan_time": 1709939454.9941273,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -91,18 +91,18 @@
             "172.64.80.1"
         ],
         "ipv6_addresses": [
-            "2606:4700:3035::ac43:aa7c",
             "2606:4700:3033::6815:57b0",
+            "2606:4700:3035::ac43:aa7c",
             "2606:4700:130:436c:6f75:6466:6c61:7265"
         ],
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "GlobalSign nv-sa",
         "rtt_range": [
-            3.0,
-            5.0
+            8.0,
+            10.0
         ],
-        "scan_time": 1709936749.028021,
+        "scan_time": 1709939454.9930427,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -116,7 +116,7 @@
             "Netherlands"
         ],
         "hsts": true,
-        "http_server": "mw-web.eqiad.main-59f68d5588-qdrbz",
+        "http_server": "mw1355.eqiad.wmnet",
         "insecure_http": true,
         "ipv4_addresses": [
             "208.80.154.224",
@@ -125,6 +125,7 @@
         ],
         "ipv6_addresses": [
             "2620:0:861:ed1a::1",
+            "2620:0:860:ed1a::1",
             "2a02:ec80:300:ed1a::1",
             "2a02:ec80:600:ed1a::1"
         ],
@@ -136,10 +137,10 @@
         "redirect_to_https": true,
         "root_ca": "Internet Security Research Group",
         "rtt_range": [
-            24.0,
-            105.0
+            26.0,
+            103.0
         ],
-        "scan_time": 1709936749.001422,
+        "scan_time": 1709939454.9668224,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -147,7 +148,8 @@
     },
     "facebook.com": {
         "geo_locations": [
-            "United States"
+            "United States",
+            "Ireland"
         ],
         "hsts": true,
         "http_server": null,
@@ -155,29 +157,31 @@
         "ipv4_addresses": [
             "157.240.249.35",
             "157.240.254.35",
+            "31.13.66.35",
             "157.240.0.35",
             "157.240.231.35"
         ],
         "ipv6_addresses": [
             "2a03:2880:f175:81:face:b00c:0:25de",
-            "2a03:2880:f175:181:face:b00c:0:25de",
             "2a03:2880:f103:83:face:b00c:0:25de",
+            "2a03:2880:f175:181:face:b00c:0:25de",
             "2a03:2880:f177:185:face:b00c:0:25de",
             "2a03:2880:f169:81:face:b00c:0:25de"
         ],
         "rdns_names": [
             "edge-star-mini-shv-01-ord5.facebook.com",
             "edge-star-mini-shv-02-ord5.facebook.com",
+            "edge-star-mini-shv-01-iad3.facebook.com",
             "edge-star-mini-shv-02-fra3.facebook.com",
             "edge-star-mini-shv-01-fco2.facebook.com"
         ],
         "redirect_to_https": true,
         "root_ca": "DigiCert Inc",
         "rtt_range": [
-            3.0,
-            115.0
+            5.0,
+            117.0
         ],
-        "scan_time": 1709936749.0023408,
+        "scan_time": 1709939454.9686966,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -201,10 +205,10 @@
         "redirect_to_https": true,
         "root_ca": "GlobalSign",
         "rtt_range": [
-            4.0,
-            4.0
+            5.0,
+            5.0
         ],
-        "scan_time": 1709936749.0096054,
+        "scan_time": 1709939454.9729795,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -230,7 +234,7 @@
             19.0,
             19.0
         ],
-        "scan_time": 1709936749.0334544,
+        "scan_time": 1709939454.9955473,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -255,10 +259,10 @@
         "redirect_to_https": true,
         "root_ca": " = Digital Signature Trust Co.",
         "rtt_range": [
-            7.0,
-            7.0
+            10.0,
+            10.0
         ],
-        "scan_time": 1709936749.023781,
+        "scan_time": 1709939454.9859629,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -272,19 +276,19 @@
         "http_server": "Server",
         "insecure_http": true,
         "ipv4_addresses": [
+            "52.94.237.74",
             "52.94.225.248",
-            "52.94.228.167",
-            "52.94.237.74"
+            "52.94.228.167"
         ],
         "ipv6_addresses": [],
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "Starfield Technologies, Inc.",
         "rtt_range": [
-            23.0,
-            27.0
+            24.0,
+            28.0
         ],
-        "scan_time": 1709936749.0083923,
+        "scan_time": 1709939454.972398,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -309,7 +313,8 @@
         "ipv6_addresses": [
             "2a03:2880:f275:e9:face:b00c:0:4420",
             "2a03:2880:f275:1e9:face:b00c:0:4420",
-            "2a03:2880:f277:1e8:face:b00c:0:4420",
+            "2a03:2880:f203:e5:face:b00c:0:4420",
+            "2a03:2880:f277:e2:face:b00c:0:4420",
             "2a03:2880:f269:e6:face:b00c:0:4420"
         ],
         "rdns_names": [
@@ -322,10 +327,10 @@
         "redirect_to_https": true,
         "root_ca": "DigiCert Inc",
         "rtt_range": [
-            3.0,
-            121.0
+            7.0,
+            115.0
         ],
-        "scan_time": 1709936749.014213,
+        "scan_time": 1709939454.976855,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -353,7 +358,7 @@
             2.0,
             2.0
         ],
-        "scan_time": 1709936749.022578,
+        "scan_time": 1709939454.9845169,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -379,7 +384,7 @@
             2.0,
             2.0
         ],
-        "scan_time": 1709936749.020246,
+        "scan_time": 1709939454.981805,
         "tls_versions": [
             "TLSv1.2"
         ]
@@ -399,20 +404,20 @@
             "172.64.80.1"
         ],
         "ipv6_addresses": [
-            "2606:4700:3033::6815:4a9",
             "2606:4700:3035::ac43:8448",
-            "2a06:98c1:3121::1",
+            "2606:4700:3033::6815:4a9",
             "2a06:98c1:3120::1",
+            "2a06:98c1:3121::1",
             "2606:4700:130:436c:6f75:6466:6c61:7265"
         ],
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "GlobalSign nv-sa",
         "rtt_range": [
-            3.0,
-            5.0
+            4.0,
+            10.0
         ],
-        "scan_time": 1709936749.0404494,
+        "scan_time": 1709939455.001972,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -440,7 +445,7 @@
             2.0,
             2.0
         ],
-        "scan_time": 1709936749.0188458,
+        "scan_time": 1709939454.9801939,
         "tls_versions": [
             "TLSv1.2"
         ]
@@ -457,7 +462,7 @@
         ],
         "ipv6_addresses": [],
         "rdns_names": [
-            "cnair.northwestern.edu"
+            "evcommon-caesar-vip.northwestern.edu"
         ],
         "redirect_to_https": true,
         "root_ca": "Comodo CA Limited",
@@ -465,7 +470,7 @@
             2.0,
             2.0
         ],
-        "scan_time": 1709936749.0172105,
+        "scan_time": 1709939454.9787533,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -480,20 +485,20 @@
         "http_server": null,
         "insecure_http": true,
         "ipv4_addresses": [
-            "151.101.64.84",
-            "151.101.128.84",
             "151.101.192.84",
-            "151.101.0.84"
+            "151.101.0.84",
+            "151.101.64.84",
+            "151.101.128.84"
         ],
         "ipv6_addresses": [],
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "DigiCert Inc",
         "rtt_range": [
-            3.0,
-            4.0
+            6.0,
+            10.0
         ],
-        "scan_time": 1709936749.011297,
+        "scan_time": 1709939454.974507,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -518,10 +523,10 @@
         "redirect_to_https": false,
         "root_ca": "Comodo CA Limited",
         "rtt_range": [
-            25.0,
-            25.0
+            24.0,
+            24.0
         ],
-        "scan_time": 1709936749.037883,
+        "scan_time": 1709939454.9990897,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -535,25 +540,25 @@
         "http_server": "snooserv",
         "insecure_http": true,
         "ipv4_addresses": [
-            "151.101.193.140",
             "151.101.1.140",
             "151.101.65.140",
-            "151.101.129.140"
+            "151.101.129.140",
+            "151.101.193.140"
         ],
         "ipv6_addresses": [
+            "2a04:4e42:600::396",
             "2a04:4e42::396",
             "2a04:4e42:200::396",
-            "2a04:4e42:400::396",
-            "2a04:4e42:600::396"
+            "2a04:4e42:400::396"
         ],
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "DigiCert Inc",
         "rtt_range": [
-            3.0,
-            4.0
+            4.0,
+            8.0
         ],
-        "scan_time": 1709936749.0071044,
+        "scan_time": 1709939454.9710479,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -567,8 +572,8 @@
         "http_server": "Apache/2.4.57 () OpenSSL/1.0.2k-fips",
         "insecure_http": true,
         "ipv4_addresses": [
-            "99.83.180.228",
-            "75.2.104.223"
+            "75.2.104.223",
+            "99.83.180.228"
         ],
         "ipv6_addresses": [],
         "rdns_names": [
@@ -581,7 +586,7 @@
             3.0,
             3.0
         ],
-        "scan_time": 1709936749.0351522,
+        "scan_time": 1709939454.9976726,
         "tls_versions": [
             "TLSv1.1",
             "TLSv1.2"
@@ -604,10 +609,10 @@
         "redirect_to_https": true,
         "root_ca": "Internet Security Research Group",
         "rtt_range": [
-            12.0,
-            12.0
+            15.0,
+            15.0
         ],
-        "scan_time": 1709936749.0246408,
+        "scan_time": 1709939454.9878144,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",
@@ -622,10 +627,10 @@
         "http_server": null,
         "insecure_http": false,
         "ipv4_addresses": [
+            "151.101.2.28",
             "151.101.66.28",
             "151.101.130.28",
-            "151.101.194.28",
-            "151.101.2.28"
+            "151.101.194.28"
         ],
         "ipv6_addresses": [],
         "rdns_names": [],
@@ -633,9 +638,9 @@
         "root_ca": "GlobalSign",
         "rtt_range": [
             3.0,
-            4.0
+            8.0
         ],
-        "scan_time": 1709936749.0129092,
+        "scan_time": 1709939454.976395,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -649,20 +654,20 @@
         "http_server": "tsa_b",
         "insecure_http": true,
         "ipv4_addresses": [
-            "104.244.42.129",
-            "104.244.42.193",
             "104.244.42.1",
-            "104.244.42.65"
+            "104.244.42.65",
+            "104.244.42.129",
+            "104.244.42.193"
         ],
         "ipv6_addresses": [],
         "rdns_names": [],
         "redirect_to_https": true,
         "root_ca": "DigiCert Inc",
         "rtt_range": [
-            19.0,
-            32.0
+            36.0,
+            44.0
         ],
-        "scan_time": 1709936749.0019927,
+        "scan_time": 1709939454.9678226,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -688,7 +693,7 @@
             24.0,
             24.0
         ],
-        "scan_time": 1709936749.0229387,
+        "scan_time": 1709939454.985343,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -714,7 +719,7 @@
             2.0,
             2.0
         ],
-        "scan_time": 1709936749.0212705,
+        "scan_time": 1709939454.983358,
         "tls_versions": [
             "TLSv1.2"
         ]
@@ -728,28 +733,28 @@
         "insecure_http": true,
         "ipv4_addresses": [
             "23.59.182.173",
+            "23.219.53.199",
             "104.114.164.146",
-            "23.44.76.176",
-            "23.62.172.133",
-            "72.246.168.133",
+            "184.28.137.50",
+            "104.76.200.128",
             "184.27.182.11"
         ],
         "ipv6_addresses": [],
         "rdns_names": [
             "a23-59-182-173.deploy.static.akamaitechnologies.com",
+            "a23-219-53-199.deploy.static.akamaitechnologies.com",
             "a104-114-164-146.deploy.static.akamaitechnologies.com",
-            "a23-44-76-176.deploy.static.akamaitechnologies.com",
-            "a23-62-172-133.deploy.static.akamaitechnologies.com",
-            "a72-246-168-133.deploy.static.akamaitechnologies.com",
+            "a184-28-137-50.deploy.static.akamaitechnologies.com",
+            "a104-76-200-128.deploy.static.akamaitechnologies.com",
             "a184-27-182-11.deploy.static.akamaitechnologies.com"
         ],
         "redirect_to_https": true,
         "root_ca": "GlobalSign",
         "rtt_range": [
-            3.0,
-            102.0
+            7.0,
+            107.0
         ],
-        "scan_time": 1709936749.0147634,
+        "scan_time": 1709939454.977925,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -758,17 +763,19 @@
     "yelp.com": {
         "geo_locations": [
             "Sweden",
-            "Helsinki, Uusimaa, Finland",
+            "Denver, Colorado, United States",
+            "New York, New York, United States",
+            "Amsterdam, North Holland, Netherlands",
             "Toronto, Ontario, Canada"
         ],
         "hsts": false,
         "http_server": null,
         "insecure_http": true,
         "ipv4_addresses": [
-            "146.75.80.116",
             "146.75.76.116",
-            "146.75.36.116",
-            "151.101.244.116",
+            "151.101.68.116",
+            "199.232.36.116",
+            "151.101.36.116",
             "151.101.124.116"
         ],
         "ipv6_addresses": [],
@@ -776,10 +783,10 @@
         "redirect_to_https": true,
         "root_ca": "DigiCert Inc",
         "rtt_range": [
-            4.0,
-            123.0
+            11.0,
+            95.0
         ],
-        "scan_time": 1709936749.0048757,
+        "scan_time": 1709939454.9704561,
         "tls_versions": [
             "TLSv1.2",
             "TLSv1.3"
@@ -787,49 +794,51 @@
     },
     "youtube.com": {
         "geo_locations": [
-            "United States",
-            "Mountain View, California, United States"
+            "United States"
         ],
         "hsts": true,
         "http_server": "ESF",
         "insecure_http": true,
         "ipv4_addresses": [
             "172.217.0.174",
-            "142.250.190.46",
-            "172.217.1.110",
-            "142.251.40.238",
             "172.217.4.78",
-            "216.58.211.238",
+            "172.217.4.206",
+            "172.217.1.110",
+            "142.251.40.110",
             "142.250.190.142",
+            "173.194.222.91",
+            "173.194.222.93",
+            "173.194.222.190",
+            "173.194.222.136",
+            "142.250.191.174",
             "172.217.168.46"
         ],
         "ipv6_addresses": [
             "2607:f8b0:4009:803::200e",
-            "2607:f8b0:4009:806::200e",
-            "2607:f8b0:4009:809::200e",
-            "2607:f8b0:4009:819::200e",
-            "2607:f8b0:4006:81f::200e",
+            "2607:f8b0:4009:805::200e",
+            "2607:f8b0:4009:80a::200e",
+            "2607:f8b0:4006:821::200e",
             "2607:f8b0:4009:814::200e",
-            "2a00:1450:4010:c03::88",
-            "2a00:1450:4010:c03::5b",
-            "2a00:1450:4010:c03::5d",
-            "2a00:1450:4010:c03::be",
+            "2a00:1450:4026:805::200e",
             "2607:f8b0:4009:81b::200e",
             "2a00:1450:400a:802::200e"
         ],
         "rdns_names": [
-            "ord37s33-in-f14.1e100.net",
-            "lga34s39-in-f14.1e100.net",
-            "hem08s10-in-f14.1e100.net",
-            "ord37s36-in-f14.1e100.net"
+            "lga25s79-in-f14.1e100.net",
+            "ord37s36-in-f14.1e100.net",
+            "lo-in-f91.1e100.net",
+            "lo-in-f93.1e100.net",
+            "lo-in-f190.1e100.net",
+            "lo-in-f136.1e100.net",
+            "ord38s30-in-f14.1e100.net"
         ],
         "redirect_to_https": true,
         "root_ca": "GlobalSign nv-sa",
         "rtt_range": [
-            3.0,
-            118.0
+            4.0,
+            308.0
         ],
-        "scan_time": 1709936749.0011659,
+        "scan_time": 1709939454.966487,
         "tls_versions": [
             "TLSv1.0",
             "TLSv1.1",

@@ -26,8 +26,16 @@ class Scanner:
 
         self.scan_time = time.time()
         self.domain = domain
-        self.IPv4s = self.get_IP_Addresses('A')
-        self.IPv6s = self.get_IP_Addresses('AAAA')
+        
+        try:
+            self.IPv4s = self.get_IP_Addresses('A')
+        except:
+            self.IPv4s = []
+        
+        try:
+            self.IPv6s = self.get_IP_Addresses('AAAA')
+        except:
+            self.IPv6s = []
         
         
         self.http_server = None
@@ -35,13 +43,31 @@ class Scanner:
         self.redirect_to_https = False
         self.hsts = False
         
+        try:
+            self.set_http_server_things()
+        except:
+            print("set_http_server_things failed")
         
-        self.set_http_server_things()
-        self.tls_versions =self.check_tls_support()    
-        self.rdns_names = self.reverse_dns_lookup()
-        self.geo_locations = self.get_geo_location()
-        self.rca = self.get_root_ca()
-        self.rtt_range = self.get_rtt_for_ips()
+        try:
+            self.tls_versions =self.check_tls_support()    
+        except:
+            self.tls_versions = []
+        try:
+            self.rdns_names = self.reverse_dns_lookup()
+        except:
+            self.rdns_names = []
+        try:
+            self.geo_locations = self.get_geo_location()
+        except:
+            self.geo_locations = []
+        try:
+            self.rca = self.get_root_ca()
+        except:
+            self.rca = ""
+        try:
+            self.rtt_range = self.get_rtt_for_ips()
+        except:
+            self.rtt_range = [-1,-1]
         
 
     def gen_dict(self):
@@ -67,14 +93,12 @@ class Scanner:
         dns_list = []
         for ip in ip_addresses:
             try:
-                # Perform the reverse DNS lookup and get the first result
                 hostname, _, _ = socket.gethostbyaddr(ip)
                 print(f"IP Address: {ip} -> Hostname: {hostname}")
                 dns_list.append(hostname)
                 
             except socket.herror as e:
-                # Handle errors (e.g., no host name found for the IP address)
-                print(f"IP Address: {ip} -> Error: {e}")
+                print(f"reverse_dns_lookup errror")
         
         return dns_list
                 
