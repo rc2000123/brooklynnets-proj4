@@ -41,6 +41,7 @@ class Scanner:
         self.rdns_names = self.reverse_dns_lookup()
         self.geo_locations = self.get_geo_location()
         self.rca = self.get_root_ca()
+        self.rtt_range = self.get_rtt_for_ips()
         
 
     def gen_dict(self):
@@ -55,7 +56,8 @@ class Scanner:
             "tls_versions": self.tls_versions,
             "rdns_names": self.rdns_names,
             "geo_locations": self.geo_locations,
-            "root_ca": self.rca
+            "root_ca": self.rca,
+            "rtt_range": self.rtt_range
         }
         return json_dict
         
@@ -157,50 +159,77 @@ class Scanner:
         return results
     
     def get_root_ca(self):
-        try:
-            command = f"echo | openssl s_client -connect {self.domain}:443"
-            result = subprocess.run(command, check=True, shell=True,stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-            
-            certificate_chain = str(result).split("---")[1]
+            try:
+                command = f"echo | openssl s_client -connect {self.domain}:443"
+                result = subprocess.run(command, check=True, shell=True,stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+                
+                certificate_chain = str(result).split("---")[1]
 
-            bottom_row = certificate_chain.split("\\n")
+                bottom_row = certificate_chain.split("\\n")
+                print(bottom_row)
 
-            
-            
-            comma_list = bottom_row[-2].split(',')
-            
-            root_ca = ""
-            for chunk in comma_list:
-                if ' O = ' in chunk:
-                    root_ca = chunk[len(' O = '):]
-                    
-            
-            
-            #print(match.group(1))
+                
+                
+                comma_list = bottom_row[-2].split(',')
+                
+                root_ca = ""
+                for chunk in comma_list:
+                    if ' O = ' in chunk:
+                        root_ca = chunk[len(' O = '):]
+                    elif 'i:O = ' in chunk:
+                        root_ca = chunk[len('i:O = '):]
+                        
+                
+                
+                #print(match.group(1))
 
-            #root_ca = bottom_row.split("0 = ")[1]
-            
-            print("root_ca: ", root_ca)
+                #root_ca = bottom_row.split("0 = ")[1]
+                
+                print("root_ca: ", root_ca)
 
-            return root_ca
-            
-        except subprocess.CalledProcessError:
-            print("error, could not find ca")
-            return None
+                return root_ca
+                
+            except subprocess.CalledProcessError:
+                print("error, could not find ca")
+                return None
 
         
     
     def get_rtt_for_ips(self):
+        def get_rtt(host, port):
+            try:
+                command = f"sh -c \"time echo -e '\x1dclose\x0d' | telnet {host} {port}\""
+                result = str(subprocess.run(command, shell=True,stdout=subprocess.PIPE, stderr=subprocess.STDOUT).stdout)
+                # print(result)
+                rtt = result.split("real\\t")[1][2:7]
+                # print(rtt)
+                return float(rtt)
+
+                    
+            except subprocess.CalledProcessError as e:
+                print("process error, could not get rtt")
+                return None
         rtt_list = []
         common_ports = [80, 22, 443]
+
+        if not self.IPv4s:
+            return None
+            
         for ip in self.IPv4s:
-            rtt = get_rtt(ip,common_ports)
-            if rtt != -1:
-                rtt_list.append(rtt)
-                #only need one to work
-                break
-        
-        return [min(rtt_list),max(rtt_list)]
+            for port in common_ports:
+                rtt = get_rtt(ip,common_ports)
+                if rtt is not None:
+                    rtt_list.append(rtt)
+                    #only need one to work
+                    break
+
+            print(rtt_list)
+
+        if rtt_list:
+            return [min(rtt_list)*1000,max(rtt_list)*1000]
+
+        else:
+            return None
 
     def get_geo_location(self):
         
