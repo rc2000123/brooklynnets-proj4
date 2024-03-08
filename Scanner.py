@@ -173,9 +173,14 @@ class Scanner:
                 comma_list = bottom_row[-2].split(',')
                 
                 root_ca = ""
-                for chunk in comma_list:
-                    if ' O = ' in chunk:
+                for i in range(len(comma_list)):
+                    chunk = comma_list[i]
+                    if ' O = \"' in chunk:
+                        root_ca = chunk[len(' O = \"'):] + "," + comma_list[i+1][:-1]
+                    elif ' O = ' in chunk:
                         root_ca = chunk[len(' O = '):]
+                    elif ' O = \"' in chunk:
+                        root_ca = chunk[len('i:O = \"'):] + "," + comma_list[i+1][:-1]
                     elif 'i:O = ' in chunk:
                         root_ca = chunk[len('i:O = '):]
                         
@@ -217,7 +222,7 @@ class Scanner:
             
         for ip in self.IPv4s:
             for port in common_ports:
-                rtt = get_rtt(ip,common_ports)
+                rtt = get_rtt(ip,port)
                 if rtt is not None:
                     rtt_list.append(rtt)
                     #only need one to work
@@ -226,7 +231,7 @@ class Scanner:
             print(rtt_list)
 
         if rtt_list:
-            return [min(rtt_list)*1000,max(rtt_list)*1000]
+            return [min(rtt_list)*1000, max(rtt_list)*1000]
 
         else:
             return None
@@ -252,41 +257,4 @@ class Scanner:
                         addy_list.append(location_str)
         
         return addy_list
-
-def get_rtt(host, port, timeout=2.0):
-    rtt = -1
-    # Create a socket object
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    # Set a timeout on all socket operations
-    client_socket.settimeout(timeout)
-    
-    try:
-        # Connect to the server
-        client_socket.connect((host, port))
-        
-        # Send some data (a simple "ping" message)
-        message = 'ping'
-        start_time = time.time()  # Record the send time
-        client_socket.sendall(message.encode())
-        
-        # Wait for the response
-        response = client_socket.recv(1024)
-        end_time = time.time()  # Record the receive time
-        
-        # Calculate RTT
-        rtt = end_time - start_time
-        print(f"RTT: {rtt} seconds")
-        
-    except socket.timeout:
-        # Handle the timeout case
-        print("Request timed out")
-    except Exception as e:
-        # Handle other potential exceptions
-        print(f"An error occurred: {e}")
-    finally:
-        # Ensure the socket is closed
-        client_socket.close()
-        return rtt
-        
 

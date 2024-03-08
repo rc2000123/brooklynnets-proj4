@@ -1,6 +1,11 @@
 from Scanner import Scanner
 import sys
 import json
+import concurrent.futures
+
+def scan(domain):
+    myscan = Scanner(domain)
+    return [domain, myscan.gen_dict()]
 
 def main():
     # Check if the number of arguments is correct (including the script name)
@@ -22,13 +27,15 @@ def main():
 
     print(web_domain_list)
     domain_dict = {}
-    for domain in web_domain_list:
-        
-        
-        myscan = Scanner(domain)
-        domain_dict[domain] = myscan.gen_dict()
-    
-    
+
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = []
+        for domain in web_domain_list:
+            futures.append(executor.submit(scan, domain))
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
+            domain_dict[result[0]] = result[1]
+
     with open(outjson_location, "w") as f:
         json.dump(domain_dict, f, sort_keys=True, indent=4)
     
