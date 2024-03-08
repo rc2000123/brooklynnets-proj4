@@ -117,7 +117,7 @@ def main():
             percentage_dict[tls_version] += 1
     
     for domain,domain_data in data_source.items():
-        if domain_data['insecure_http'] == True and domain_data['redirect_to_https'] == False:
+        if domain_data['insecure_http'] == True:
             percentage_dict['plain_http_count'] += 1
         if domain_data['redirect_to_https'] == True:
             percentage_dict['redirect_https_count'] += 1
